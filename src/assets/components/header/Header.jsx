@@ -54,7 +54,7 @@ const Header = () => {
         });
 
         btnDark.forEach(el => {
-            el.id == "btnDark" ? el.id = '' : el.id = "btnDark"
+            el.classList.toggle("darkBtn")
         });
 
         chooseTitles.forEach(el => {

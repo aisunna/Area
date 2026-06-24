@@ -26,6 +26,4 @@ export const router = createBrowserRouter([
             }
         ]
     }
-], {
-    basename: '/Area/'
-})
+])
