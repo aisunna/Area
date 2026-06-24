@@ -46,7 +46,7 @@ const Header = () => {
         logoNav.id == "darkText" ? logoNav.id = '' : logoNav.id = "darkText"
 
         linksDark.forEach(el => {
-            el.classList.toggle("darkText")
+            if (!el.classList.contains("darkText")) {el.classList.toggle("darkText")}
         });
 
         commentsCard.forEach(el => {
