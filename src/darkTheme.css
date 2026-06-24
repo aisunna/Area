@@ -2,6 +2,8 @@
   background-color: #0c0c0c;
 }
 
+
+
 .dark *{
   color: white;
 }
@@ -20,10 +22,6 @@
 
 .darkText{
     color: white;
-}
-
-#darkBtn{
-    color: black;
 }
 
 #white:hover > .choose__card_title{
@@ -45,5 +43,9 @@
 
 #darkScroll{
     background-color: white;
+    color: black;
+}
+
+#btnDark{
     color: black;
 }
