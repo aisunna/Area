@@ -46,7 +46,13 @@ const Header = () => {
         logoNav.id == "darkText" ? logoNav.id = '' : logoNav.id = "darkText"
 
         linksDark.forEach(el => {
-            if (!el.classList.contains("darkText")) {el.classList.toggle("darkText")}
+            if (!el.classList.contains("darkText")) {
+                el.classList.add("darkText")
+            }
+
+            if (el.classList.contains("darkText")){
+                el.classList.remove("darkText")
+            }
         });
 
         commentsCard.forEach(el => {
@@ -96,7 +102,7 @@ const Header = () => {
 
                     <div className="nav__actions">
 
-                        <button className="actions__theme" onClick={themeClick}>Current theme: {theme}</button>
+                        <button className="actions__theme" onClick={themeClick}>Change Theme</button>
 
                         <Link className="nav__btn" to="/form">Log In <img src={arrowBtn} alt="arrow" /></Link>
 
