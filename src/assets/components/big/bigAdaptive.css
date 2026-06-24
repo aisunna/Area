@@ -1,0 +1,21 @@
+@media screen and (max-width: 1200px) {
+
+    .big__text{
+        width: fit-content;
+    }
+
+    .big{
+        flex-direction: column;
+        gap: 68px;
+    }
+
+    .big__img{
+        width: 100%;
+    }
+
+    .big__img > img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+}

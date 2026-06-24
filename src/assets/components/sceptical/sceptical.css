@@ -1,0 +1,46 @@
+.scept{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+    padding-bottom: 162px;
+}
+
+.scept__img{
+    max-width: 48vw;
+}
+
+.scept__img > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.scept__desc{
+    max-width: 48vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scept--line{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+
+.scept__text{
+    font-size: 26px;
+}
+
+.scept__desc_other{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.scept__other_subtitle{
+    color: green;
+    font-size: 12px;
+}

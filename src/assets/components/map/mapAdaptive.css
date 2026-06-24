@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+
+    .map__get{
+        overflow-x: auto;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .get__link{
+        width: 600px;
+    }
+    
+}

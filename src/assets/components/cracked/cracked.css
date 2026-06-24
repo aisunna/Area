@@ -1,0 +1,65 @@
+.cracked{
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cracked__title{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.cracked__text{
+    color: gray;
+}
+
+.amplify{
+    margin-top: 90px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.amplify__cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.amplify__card{
+    padding-top: 42px;
+    border-top: 1px solid gray;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.amplify__logo{
+    margin-bottom: 4px;
+    width: 20px;
+}
+
+.amplify__card_title{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.amplify__text{
+    color: gray;
+}
+
+.amplify__img{
+    width: 100%;
+}
+
+.amplify__img > img{
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+}

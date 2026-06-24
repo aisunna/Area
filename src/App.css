@@ -1,0 +1,13 @@
+.scrollBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: .4s;
+
+    background-color: #8E9C78;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 1000px;
+    font-size: 32px;
+    cursor: pointer;
+}

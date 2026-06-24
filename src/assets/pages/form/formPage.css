@@ -1,0 +1,60 @@
+.form{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #8E9C78;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.form *{
+    color: white;
+}
+
+.form__container{
+    padding: 170px 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    color: red;
+}
+
+.inputs__input {
+    color: black;
+
+    padding: 10px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.form__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form__btn{
+    padding: 10px 30px;
+    border-radius: 1000px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.form__title{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.inputs__title{
+    font-weight: 300;
+}

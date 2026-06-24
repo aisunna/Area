@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+    .amplify__cards{
+        flex-wrap: wrap;
+    }
+
+    .amplify__card{
+        width: 43vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cracked__title{
+        font-size: 50px;
+    }
+
+    .amplify__card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500) {
+    .cracked__title{
+        font-size: 40px;
+    }
+}

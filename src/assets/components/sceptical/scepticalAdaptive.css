@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+    
+    .scept__desc{
+        width: 45vw;
+    }
+
+    .scept__text{
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    
+    .scept{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .scept__img, .scept__desc{
+        max-width: fit-content;
+    }
+
+    .scept__desc{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .scept__text{
+        font-size: 18px;
+    }
+}

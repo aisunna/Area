@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+
+    .comments__card{
+        width: 43vw;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+    .comments__cards{
+        flex-direction: column;
+    }
+
+    .comments__card{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .comments{
+        padding: 0 8px;
+    }
+
+    .comments__card_text{
+        font-size: 14px;
+    }
+    
+}

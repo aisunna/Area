@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+    
+    .choose__cards{
+        overflow-x: auto;
+        width: 100%;
+        justify-content: start;
+
+        padding: 5px;
+    }
+
+    .choose__card{
+        width: 600px;
+    }
+
+    .choose__list{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        padding: 32px;
+    }
+
+    .choose__link{
+        padding: 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+}
